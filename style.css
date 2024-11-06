@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -66,6 +67,8 @@ li {
     font-size: 18px;
     color: #333;
     border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
 }
 
 li:hover {
